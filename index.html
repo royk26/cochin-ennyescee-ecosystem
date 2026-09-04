@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10120f" />
+    <meta name="description" content="A unified interactive prototype for Cochin Energy System and Ennyescee Food Factory." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310120f'/%3E%3Cpath d='M13 34h38M20 22h24M24 46h16' stroke='%23ff6534' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='34' r='7' fill='%23b7d548'/%3E%3C/svg%3E" />
+    <title>Cochin Energy × Ennyescee — From Source to Shelf</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Cochin Energy and Ennyescee home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>CES <b>×</b> EFF</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Open menu</span></button>
+      <nav id="site-nav" aria-label="Primary navigation">
+        <a href="#energy">Energy</a><a href="#food">Food</a><a href="#technology">Technology</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#selector">Get a quote <span>↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy reveal is-visible">
+          <p class="kicker"><span></span> One connected dehydration ecosystem</p>
+          <h1>We engineer<br /><em>the journey</em><br />from fresh.</h1>
+          <p class="hero-intro">Technology that controls the drying process. Food products that show where that process can lead.</p>
+          <div class="hero-actions">
+            <a class="button button-hot" href="#energy">Explore energy solutions <span>↘</span></a>
+            <a class="button button-ghost" href="#food">Shop food products <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-scene" data-hero-scene aria-label="Interactive three-dimensional dehydration system. Drag to rotate.">
+          <canvas id="hero-canvas"></canvas>
+          <div class="scene-fallback" aria-hidden="true"><span></span><i></i><b></b></div>
+          <div class="scene-label label-input"><small>Input</small> Fresh produce</div>
+          <div class="scene-label label-process"><small>Process</small> Controlled airflow</div>
+          <div class="scene-label label-output"><small>Output</small> Dehydrated ingredient</div>
+          <p class="drag-note">Drag to inspect <span>↔</span></p>
+        </div>
+        <a class="scroll-cue" href="#divisions"><span>Follow the process</span><i></i></a>
+      </section>
+
+      <section class="signal-strip" aria-label="Ecosystem stages"><div><span>Fresh produce</span><b>→</b><span>Thermal systems</span><b>→</b><span>Controlled dehydration</span><b>→</b><span>Food products</span><b>→</b><span aria-hidden="true">Fresh produce</span><b aria-hidden="true">→</b><span aria-hidden="true">Thermal systems</span><b aria-hidden="true">→</b><span aria-hidden="true">Controlled dehydration</span><b aria-hidden="true">→</b><span aria-hidden="true">Food products</span><b aria-hidden="true">→</b></div></section>
+
+      <section class="divisions section" id="divisions">
+        <div class="section-top reveal"><p class="index">01 / Two divisions</p><p class="section-note">Separate expertise.<br />One connected outcome.</p></div>
+        <h2 class="display reveal">Engineered on one side.<br /><em>Experienced on the other.</em></h2>
+        <div class="division-grid">
+          <a class="division-card energy-card reveal" href="#energy">
+            <span class="division-number">01</span><div class="division-icon icon-energy" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p>Cochin Energy System</p><h3>Industrial energy &amp; dehydration technology</h3><span class="division-link">Enter energy division ↘</span>
+          </a>
+          <a class="division-card food-card reveal" href="#food">
+            <span class="division-number">02</span><div class="division-icon icon-food" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p>Ennyescee Food Factory</p><h3>Dehydrated foods &amp; consumer products</h3><span class="division-link">Enter food division ↘</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="process-story" id="technology" data-story>
+        <div class="story-sticky">
+          <div class="story-copy">
+            <p class="index">02 / Technology → food</p>
+            <p class="story-count"><span data-story-current>01</span> / 06</p>
+            <h2 data-story-title>Fresh tomato</h2>
+            <p data-story-copy>Produce begins with its natural moisture intact.</p>
+            <div class="story-progress" aria-hidden="true"><i data-story-bar></i></div>
+          </div>
+          <div class="story-machine" aria-hidden="true">
+            <div class="machine-grid"></div><div class="air-streams"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="produce fresh"><i></i><i></i></div>
+            <div class="chamber"><span>Temp</span><span>Airflow</span><span>Humidity</span><b></b></div>
+            <div class="produce dried"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="product-jar"><span>Tomato<br />powder</span></div>
+          </div>
+          <ol class="story-steps">
+            <li class="is-active">Produce</li><li>Loading</li><li>Control</li><li>Moisture</li><li>Dried</li><li>Product</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="energy section" id="energy">
+        <div class="section-top reveal"><p class="index">03 / Cochin Energy System</p><p class="section-note">Industrial systems for<br />heat, drying and insulation.</p></div>
+        <div class="section-heading reveal"><h2>Control the<br /><em>conditions.</em></h2><p>Cochin Energy System presents heat-pump dehydration dryers, solar-hybrid hot-water systems, and PIR smart-insulation solutions.</p></div>
+        <div class="solution-rail">
+          <article class="solution-card solution-featured reveal" tabindex="0">
+            <div class="solution-visual dryer-visual" aria-hidden="true"><div class="dryer-body"><i></i><i></i><i></i><b></b></div><div class="thermal-ring"></div></div>
+            <div class="solution-copy"><span>01 / Process technology</span><h3>Heat-pump dehydration dryers</h3><p>Listed for low-, mid-, and high-temperature drying applications on the current CES product page.</p><a href="https://cochinenergysystem.com/ces-heatpump-dehydration-dryers/" target="_blank" rel="noopener">View verified product details ↗</a></div>
+          </article>
+          <article class="solution-card reveal" tabindex="0"><div class="solution-visual solar-visual" aria-hidden="true"><i></i><i></i><b></b></div><div class="solution-copy"><span>02 / Thermal energy</span><h3>Solar-hybrid hot water</h3><p>A combination of storage, collectors, heat pumps, circulation, and controls.</p><a href="https://cochinenergysystem.com/ces-hybrid-systems/" target="_blank" rel="noopener">Explore the system ↗</a></div></article>
+          <article class="solution-card reveal" tabindex="0"><div class="solution-visual panel-visual" aria-hidden="true"><i></i><i></i><i></i></div><div class="solution-copy"><span>03 / Building envelope</span><h3>Smart insulation panels</h3><p>Closed-cell PIR panels presented for HVAC ducts and wall panelling.</p><a href="https://cochinenergysystem.com/ces-smart-insulation-panels/" target="_blank" rel="noopener">Explore insulation ↗</a></div></article>
+        </div>
+      </section>
+
+      <section class="selector section" id="selector">
+        <div class="selector-intro reveal"><p class="index">04 / Preliminary selector</p><h2>Start with<br /><em>the batch.</em></h2><p>Choose a material category and approximate daily input. The tool returns the smallest listed CES dryer capacity that can contain that batch.</p></div>
+        <form class="selector-panel reveal" data-selector>
+          <fieldset><legend>What do you want to dry?</legend><div class="choice-grid">
+            <label><input type="radio" name="material" value="Fruit" checked /><span>Fruit</span></label>
+            <label><input type="radio" name="material" value="Vegetable" /><span>Vegetable</span></label>
+            <label><input type="radio" name="material" value="Spice" /><span>Spice</span></label>
+            <label><input type="radio" name="material" value="Herb" /><span>Herb</span></label>
+            <label><input type="radio" name="material" value="Other" /><span>Other</span></label>
+          </div></fieldset>
+          <label class="range-label" for="capacity"><span>Daily batch input</span><output for="capacity" data-capacity-output>300 kg</output></label>
+          <input id="capacity" type="range" min="50" max="1200" step="50" value="300" />
+          <div class="range-marks" aria-hidden="true"><span>50 kg</span><span>1200 kg</span></div>
+          <div class="recommendation" aria-live="polite"><div><small>Preliminary match</small><strong data-recommendation>300 KG</strong></div><p data-recommendation-copy>For an estimated 300 kg fruit batch.</p><a href="#contact">Request engineering verification ↗</a></div>
+          <p class="disclaimer">Indicative capacity matching only. Material properties, moisture load, cycle time, loading pattern, ambient conditions, and process requirements must be reviewed by Cochin Energy System before selection.</p>
+        </form>
+      </section>
+
+      <section class="food section" id="food">
+        <div class="section-top reveal"><p class="index">05 / Ennyescee Food Factory</p><p class="section-note">Real products from the<br />consumer side of dehydration.</p></div>
+        <div class="section-heading reveal"><h2>Made ready<br /><em>for the kitchen.</em></h2><p>Browse a curated preview of products currently listed by Ennyescee. Product actions continue to the existing store; checkout is not reproduced here.</p></div>
+        <div class="filter-row reveal" role="group" aria-label="Filter products">
+          <button class="is-active" type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="powders" aria-pressed="false">Powders</button><button type="button" data-filter="mixes" aria-pressed="false">Curry mixes</button><button type="button" data-filter="snacks" aria-pressed="false">Snacks</button><button type="button" data-filter="spices" aria-pressed="false">Spices</button>
+        </div>
+        <div class="product-grid" data-products>
+          <a class="product-card reveal" data-category="powders" href="https://ennyesceefoodfactory.com/index.php/product/tomato-powder/" target="_blank" rel="noopener"><div class="product-image tomato"><img src="./products/tomato-powder.png" alt="Tomato powder product" loading="lazy" decoding="async" /></div><span>Powder</span><h3>Tomato powder</h3><p>View in existing store ↗</p></a>
+          <a class="product-card reveal" data-category="spices powders" href="https://ennyesceefoodfactory.com/index.php/product/garlic-powder/" target="_blank" rel="noopener"><div class="product-image garlic"><img src="./products/garlic-powder.jpg" alt="Garlic powder and flakes" loading="lazy" decoding="async" /></div><span>Spice / powder</span><h3>Garlic powder</h3><p>View in existing store ↗</p></a>
+          <a class="product-card reveal" data-category="spices powders" href="https://ennyesceefoodfactory.com/index.php/product/turmeric-powder/" target="_blank" rel="noopener"><div class="product-image turmeric"><img src="./products/turmeric-powder.jpg" alt="Turmeric powder product" loading="lazy" decoding="async" /></div><span>Spice / powder</span><h3>Turmeric powder</h3><p>View in existing store ↗</p></a>
+          <a class="product-card reveal" data-category="mixes" href="https://ennyesceefoodfactory.com/index.php/product/aviyal-mix/" target="_blank" rel="noopener"><div class="product-image aviyal"><img src="./products/aviyal-mix.jpg" alt="Aviyal mix product" loading="lazy" decoding="async" /></div><span>Easy-to-cook mix</span><h3>Aviyal mix</h3><p>View in existing store ↗</p></a>
+          <a class="product-card reveal" data-category="mixes" href="https://ennyesceefoodfactory.com/index.php/product/sambar-kit-with-vegetables/" target="_blank" rel="noopener"><div class="product-image sambar"><img src="./products/sambar-kit.jpg" alt="Sambar kit with vegetables" loading="lazy" decoding="async" /></div><span>Easy-to-cook mix</span><h3>Sambar kit</h3><p>View in existing store ↗</p></a>
+          <a class="product-card reveal" data-category="snacks" href="https://ennyesceefoodfactory.com/index.php/product/chakka-puzhukku/" target="_blank" rel="noopener"><div class="product-image chakka"><img src="./products/chakka-puzhukku.jpg" alt="Chakka puzhukku product" loading="lazy" decoding="async" /></div><span>Snack</span><h3>Chakka puzhukku</h3><p>View in existing store ↗</p></a>
+        </div>
+        <a class="text-link reveal" href="https://ennyesceefoodfactory.com/index.php/products/" target="_blank" rel="noopener">Browse all products on Ennyescee ↗</a>
+      </section>
+
+      <section class="why section">
+        <div class="section-top reveal"><p class="index">06 / Why dehydration?</p><p class="section-note">A process explained<br />without inflated claims.</p></div>
+        <div class="why-grid">
+          <div class="why-heading reveal"><h2>Less water.<br /><em>More utility.</em></h2><div class="moisture-gauge" aria-hidden="true"><i></i><span>Moisture<br />removed</span></div></div>
+          <ol class="benefit-list">
+            <li class="reveal"><span>01</span><div><h3>Moisture removal</h3><p>Drying reduces water content through controlled heat and airflow.</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Preservation</h3><p>Lower available moisture can help limit conditions that support spoilage; outcomes depend on process and packaging.</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Reduced weight</h3><p>Removing water reduces product mass, which can change storage and transport needs.</p></div></li>
+            <li class="reveal"><span>04</span><div><h3>Food applications</h3><p>Dried ingredients can become flakes, powders, mixes, snacks, and easy-to-cook formats.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section-top reveal"><p class="index">07 / Technology details</p><p class="section-note">Verified configurations<br />from current CES materials.</p></div>
+        <div class="project-showcase">
+          <article class="project-large reveal"><div class="project-art"><div class="capacity-stack"><span>100</span><span>300</span><span>500</span><span>1200</span></div><div class="machine-outline"></div></div><div class="project-caption"><p>Heat-pump dehydration</p><h3>Four listed batch capacities</h3><span>100 / 300 / 500 / 1200 kg</span></div></article>
+          <article class="project-small reveal"><div class="project-art hotwater"><i></i><i></i><i></i></div><div class="project-caption"><p>Hybrid systems</p><h3>Solar + heat pump hot water</h3><a href="https://cochinenergysystem.com/ces-hybrid-systems/" target="_blank" rel="noopener">View source ↗</a></div></article>
+          <article class="project-wide reveal"><div class="project-art insulation"><i></i><i></i><i></i><i></i></div><div class="project-caption"><p>Insulation</p><h3>PIR smart panels</h3><span>Listed thickness range: 10–75 mm</span></div></article>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-top reveal"><p class="index">08 / One ecosystem</p><p class="section-note">Two recognizable businesses.<br />One connected narrative.</p></div>
+        <div class="about-grid"><h2 class="reveal">Technology enables<br /><em>the process.</em><br />Food makes it tangible.</h2><div class="about-copy reveal"><p>Cochin Energy System represents the equipment and thermal-systems side. Ennyescee Food Factory represents consumer-facing dehydrated food products.</p><p>This prototype connects those roles as a visual process story. It does not assert common ownership, certifications, installation totals, or performance figures that the source sites do not reliably establish.</p><div class="brand-pair"><span>Cochin Energy System<small>Industrial division</small></span><b>×</b><span>Ennyescee Food Factory<small>Food division</small></span></div></div></div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="section-top reveal"><p class="index">09 / Start a conversation</p><p class="section-note">Choose the route that<br />matches your enquiry.</p></div>
+        <h2 class="reveal">What are you<br /><em>working toward?</em></h2>
+        <div class="contact-grid">
+          <a class="contact-card contact-energy reveal" href="mailto:cochinenergysystem@gmail.com?subject=Industrial%20project%20enquiry"><span>Industrial / project enquiry</span><h3>Cochin Energy System</h3><p>Heat-pump dryers, solar-hybrid systems, insulation, and project enquiries.</p><b>Email the energy team ↗</b></a>
+          <a class="contact-card contact-food reveal" href="https://ennyesceefoodfactory.com/index.php/contact-us/" target="_blank" rel="noopener"><span>Food / product enquiry</span><h3>Ennyescee Food Factory</h3><p>Product questions, availability, and ordering through the existing business site.</p><b>Open food contact page ↗</b></a>
+        </div>
+        <div class="contact-details reveal">
+          <div><span>Cochin Energy System</span><a href="tel:+919744075429">+91 97440 75429</a><a href="tel:+917994018725">+91 79940 18725</a></div>
+          <div><span>CES office &amp; experience center</span><p>II/312, Thuruthumana Road, Near L.P. School, Irumpanam, Ernakulam, Kerala 682309</p></div>
+          <div><span>Ennyescee factory</span><p>1st Floor, 12/344, Thiruvaniyoor, near Cochin Paper and Paper Boards, Vandipetta, Kochi, Kerala 682308</p></div>
+        </div>
+        <footer><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>CES <b>×</b> EFF</span></a><p>Interactive concept prototype<br />© <span id="year"></span></p><p>Source information verified<br />against the current business sites</p><a href="#top">Back to top ↑</a></footer>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
